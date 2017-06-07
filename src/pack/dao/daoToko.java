@@ -92,7 +92,7 @@ Logger.getLogger(daoToko.class.getName()).log(Level.SEVERE,null, ex);
     }
     return lt;
 }
-//menampilkan data ke Tabel
+//untuk menampilkan data ke Tabel
     @Override
     public List<m_toko> getAll() {
     List<m_toko> lt=null;
